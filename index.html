@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Technical Docs Page</title>
-	<link rel="stylesheet" type="text/css" href="technical.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technical Docs Page</title>
+  <link rel="stylesheet" type="text/css" href="technical.css">
 </head>
 <body>
+
+
 <nav id="navbar">
   <header>C++ Programming Language</header>
   <ul>
     <li><a class="nav-link" href="#Introduction">Introduction</a></li>
     <li>
-      <a class="nav-link" href="#What_you_should_already_know"
-        >History</a
-      >
+      <a class="nav-link" href="#History"
+        >History</a>
     </li>
     <li>
-      <a class="nav-link" href="#JavaScript_and_Java">Philosophy</a>
+      <a class="nav-link" href="#Philosophy">Philosophy</a>
     </li>
-    <li><a class="nav-link" href="#Hello_world">Standardization</a></li>
-    <li><a class="nav-link" href="#Variables">Language</a></li>
+    <li><a class="nav-link" href="#Standardization">Standardization</a></li>
+    <li><a class="nav-link" href="#Language">Language</a></li>
     <li>
-      <a class="nav-link" href="#Declaring_variables">Encapsulation</a>
+      <a class="nav-link" href="#Encapsulation">Encapsulation</a>
     </li>
-    <li><a class="nav-link" href="#Variable_scope">Inheritance</a></li>
-    <li><a class="nav-link" href="#Global_variables">Operators and operator overloading</a></li>
-    <li><a class="nav-link" href="#Constants">Polymorphism</a></li>
-    <li><a class="nav-link" href="#Data_types">Static polymorphism</a></li>
+    <li><a class="nav-link" href="#Inheritance">Inheritance</a></li>
+    <li><a class="nav-link" href="#Operators_and_operator_overloading">Operators and operator overloading</a></li>
+    <li><a class="nav-link" href="#Polymorphism">Polymorphism</a></li>
+      <a class="nav-link" href="#Dynamic_polymorphism">Dynamic polymorphism</a>
+    </li>
+    <li><a class="nav-link" href="#Virtual_member_functions">Virtual member functions</a></li>
     <li>
-      <a class="nav-link" href="#if...else_statement">Dynamic polymorphism</a>
+      <a class="nav-link" href="#Lambda_expressions"
+        >Lambda expressions</a>
     </li>
-    <li><a class="nav-link" href="#while_statement">Virtual member functions</a></li>
-    <li>
-      <a class="nav-link" href="#Function_declarations"
-        >Lambda expressions</a
-      >
-    </li>
-    <li><a class="nav-link" href="#Reference">Exception handling</a></li>
+    <li><a class="nav-link" href="#Exception_handling">Exception handling</a></li>
+   <li><a class="nav-link" href="#Reference">Reference</a></li>
   </ul>
 </nav>
 <main id="main-doc">
@@ -58,7 +57,7 @@
              
     </article>
   </section>
-  <section class="main-section" id="What_you_should_already_know">
+  <section class="main-section" id="History">
     <header>History</header>
     <article>
       <p>This guide assumes you have the following basic background:</p>
@@ -79,7 +78,7 @@ As of 2021 C++ ranked fourth on the TIOBE index, a measure of the popularity of 
       </ul>
     </article>
   </section>
-  <section class="main-section" id="JavaScript_and_Java">
+  <section class="main-section" id="Philosophy">
     <header>Philosophy</header>
     <article>
       <p>
@@ -122,7 +121,7 @@ As of 2021 C++ ranked fourth on the TIOBE index, a measure of the popularity of 
         </ul>
     </article>
   </section>
-  <section class="main-section" id="Hello_world">
+  <section class="main-section" id="Standardization">
     <header>Standardization</header>
     <article>
       C++ is standardized by an ISO working group known as JTC1/SC22/WG21. So far, it has published six revisions of the C++ standard and is currently working on the next revision, C++23.
@@ -184,7 +183,7 @@ ISO/IEC TS 19841:2015 on software transactional memory,
       </ul>
     </article>
   </section>
-  <section class="main-section" id="Variables">
+  <section class="main-section" id="Language">
     <header>Language</header>
     <p>
       The C++ language has two main components: a direct mapping of hardware features provided primarily by the C subset, and zero-overhead abstractions based on those mappings. Stroustrup describes C++ as "a light-weight abstraction programming language [designed] for building and using efficient and elegant abstractions";and "offering both hardware access and abstraction is the basis of C++. Doing it efficiently is what distinguishes it from other languages."
@@ -204,7 +203,7 @@ int main()
 }
     </code>
   </section>
-  <section class="main-section" id="Declaring_variables">
+  <section class="main-section" id="Encapsulation">
     <header>Encapsulation</header>
     <article>
       
@@ -219,7 +218,7 @@ int main()
       </p>
     </article>
   </section>
-  <section class="main-section" id="Variable_scope">
+  <section class="main-section" id="Inheritance">
     <header>Inheritance</header>
     <article>
       <p>
@@ -233,7 +232,7 @@ int main()
      
     </article>
   </section>
-  <section class="main-section" id="Global_variables">
+  <section class="main-section" id="Operators_and_operator_overloading">
     <header>Operators and operator overloading</header>
     Operators and operator overloading
     <article>
@@ -246,7 +245,7 @@ int main()
       </p>
     </article>
   </section>
-  <section class="main-section" id="Constants">
+  <section class="main-section" id="Polymorphism">
     <header>Polymorphism</header>
     <article>
       <p>
@@ -256,7 +255,7 @@ C++ supports several kinds of static (resolved at compile-time) and dynamic (res
       </p>
     </article>
   </section>
-  <section class="main-section" id="Data_types">
+  <section class="main-section" id="Dynamic_polymorphism">
     <header>Dynamic polymorphism</header>
     <article>
       <p>Inheritance</p>
@@ -268,7 +267,7 @@ C++ supports several kinds of static (resolved at compile-time) and dynamic (res
             
     </article>
   </section>
-  <section class="main-section" id="if...else_statement">
+  <section class="main-section" id="Virtual_member_functions">
     <header>Virtual member functions</header>
     <article>
       <p>Ordinarily, when a function in a derived class overrides a function in a base class, the function to call is determined by the type of the object. A given function is overridden when there exists no difference in the number or type of parameters between two or more definitions of that function. Hence, at compile time, it may not be possible to determine the type of the object and therefore the correct function to call, given only a base class pointer; the decision is therefore put off until runtime. This is called dynamic dispatch. Virtual member functions or methods allow the most specific implementation of the function to be called, according to the actual run-time type of the object. In C++ implementations, this is commonly done using virtual function tables. If the object type is known, this may be bypassed by prepending a fully qualified class name before the function call, but in general calls to virtual functions are resolved at run time.</p>
@@ -281,7 +280,7 @@ C++ supports several kinds of static (resolved at compile-time) and dynamic (res
 
     </article>
   </section>
-  <section class="main-section" id="while_statement">
+  <section class="main-section" id="Lambda_expressions">
     <header>Lambda expressions</header>
     <article>
      C++ provides support for anonymous functions, also known as lambda expressions, with the following form:
@@ -305,7 +304,7 @@ C++ supports several kinds of static (resolved at compile-time) and dynamic (res
 
     </article>
   </section>
-  <section class="main-section" id="Function_declarations">
+  <section class="main-section" id="Exception_handling">
     <header>Exception handling</header>
     <article>
       Exception handling is used to communicate the existence of a runtime problem or error from where it was detected to where the issue can be handled. It permits this to be done in a uniform manner and separately from the main code, while detecting all errors. Should an error occur, an exception is thrown (raised), which is then caught by the nearest suitable exception handler. The exception causes the current scope to be exited, and also each outer scope (propagation) until a suitable handler is found, calling in turn the destructors of any objects in these exited scopes. At the same time, an exception is presented as an object carrying the data about the detected problem.
@@ -359,6 +358,5 @@ int main() {
     </article>
   </section>
 </main>
-
 </body>
 </html>
